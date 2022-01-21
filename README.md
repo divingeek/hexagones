@@ -28,5 +28,6 @@ L’application se lance dans un navigateur web en lançant index.html situé da
 Les fichiers élèves pourront être déposés sur le lien https://cloud.divingeek.com/owncloud/index.php/s/myxgPg2zOgH0E2W dans le dossier sas.
 
 ## 5. Génération de la vidéo
-Le script hexagone.py execute les différents scripts élèves du dossier travaux, et génère des images au format eps.
-Ensuite, un script shell (linux) transforme ces eps en png, puis à l'aide de la librairie ffmpeg, crée une vidéo out.mp4
+Pour générer la vidéo, il faut executer le scipt hexagone.sh.
+il fait le ménage dans un premier temps, puis execute hexagone.py qui, ce dernier, execute les différents scripts élèves présents dans le dossier travaux. Enfin, il génère des images au format eps.
+Ensuite, hexagone.sh transforme ces eps en png, puis à l'aide de la librairie ffmpeg, crée une vidéo out.mp4
